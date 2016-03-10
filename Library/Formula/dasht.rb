@@ -10,6 +10,7 @@ class Dasht < Formula
 
   def install
     bin.install Dir["bin/*"]
+    man.install Dir["man/*"]
   end
 
   def caveats
